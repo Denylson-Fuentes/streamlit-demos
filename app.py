@@ -29,7 +29,7 @@ with st.sidebar:
         """
         Built by **Denylson Fuentes**
 
-        [Portfolio](https://denylson-fuentes.netlify.app/) ·
+        [Portfolio](https://denylson-fuentes.netlify.app/)
         [GitHub](https://github.com/Denylson-Fuentes)
         """
     )
