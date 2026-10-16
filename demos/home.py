@@ -40,5 +40,5 @@ with col3:
 st.markdown("---")
 st.caption(
     "Full portfolio with project writeups and source code: "
-    "[your-portfolio-url.netlify.app](https://your-portfolio-url.netlify.app)"
+    "[denylson-fuentes.netlify.app](https://denylson-fuentes.netlify.app)"
 )
