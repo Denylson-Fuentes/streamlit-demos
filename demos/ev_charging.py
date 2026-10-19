@@ -88,6 +88,12 @@ col1.metric("MAE", f"{mae:.2f} kWh")
 col2.metric("Total Actual", f"{total_actual:.1f} kWh")
 col3.metric("Total Predicted", f"{total_pred:.1f} kWh")
 col4.metric("Charging Hours", f"{len(day_df)}")
+# After the metrics row:
+if len(day_df) < 4:
+    st.caption(
+        f"⚠️ This day only has {len(day_df)} hour(s) of charging activity for {selected_node}. "
+        f"The full dataset spans {len(available_dates)} days with activity for this node."
+    )
 
 # --- Chart ---
 fig, ax = plt.subplots(figsize=(12, 5))
