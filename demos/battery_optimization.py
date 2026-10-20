@@ -87,3 +87,12 @@ st.caption(
     "The full project trains a Random Forest model on solar, load, and price "
     "data for 24-hour-ahead forecasting."
 )
+st.markdown("---")
+st.caption(
+    "**Demo notes:** This demo illustrates the **strategy** behind battery "
+    "dispatch optimization using price thresholds. The full project (on my "
+    "portfolio) trains a Random Forest model on 168-hour lag features to "
+    "forecast solar, load, and price — achieving $10,780 annual savings and "
+    "21% ROI in simulation. This interactive part focuses on sensitivity "
+    "analysis: how savings scale with battery size, cycles, and price spread."
+)
